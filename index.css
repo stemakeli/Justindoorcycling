@@ -8,12 +8,12 @@
 
 
 
-
+/* Css overide setting */
 
 
 * { margin: 0; padding: 0; box-sizing: border-box;}
 
-
+/*body element*/
 
 body { font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center; text-align: center;}
@@ -23,15 +23,27 @@ text-align: center; text-align: center;}
      background-size: cover;
      background-attachment: fixed;}
 
-    
+     .last {font-size: 1.6em; color: #ffffff;}
+span.thoseads {font-size: 1.4em; color: #0a2557bb; }
+span.hey { font-size: 2em; color: #943126;} 
+span.indoor { color: #ffffff;}
+span.blog {color: #ffffff;}
+ .blueline { height: 3px;margin-left:5.5em; margin-top: 3.875em; background-color: #06022d; width: auto;}  
+ 
+ /*Headings elements*/
+
+ h1 { text-align: center; text-decoration: underline; color: #ff0000;}
+ h2, h3, h4 { margin-left: 1em;}
+   h2 { text-align: left; color: #000000;}
+   h3 { font-weight: 700; font-size: 1em; text-align: left;}
+   h4 { text-align: center; font-size: 1.4em; margin-top: 0em;}
      
 
-
-
-
+    /*Body elements*/
+     
 .box { height: 5.5em; width: 5.5em;; position:relative; background: #ffffff; border:2px solid #06022d;
           border-radius: 1.25em; float: right; margin: -6em 15.5em 0em 0em;}
-#trainerapps { color: #0000;}
+
 .wiic-bg { background-color: #a9e3b3;  background-image: url("spinning5.png"); background-repeat:no-repeat; background-size:cover; background-attachment: fixed;}
 .turbotrainers-bg{ background-color: #d3c384 ; background-image: url("turbo1.png"); background-repeat: no-repeat; background-size: cover;background-attachment: fixed;}
 .apps-bg { background-color: #779c95 ; background-image: url("zwift.png");  background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
@@ -42,44 +54,105 @@ text-align: center; text-align: center;}
 header { height: 6.25em; width: auto; margin-top: 0.625em;} 
 .redline { height: 3px; margin-left: 5.5em; margin-top: 3em; background-color: #ff0000; width: auto }
 
+/* Containers and wrappers*/
+
 .container { position:relative; height: 5.5em; width: 16em; border: 2px solid #06022d;
      margin: 4em 0em 0em 17.5em; background: #ffffff; border-radius: 1.25em; padding-bottom: 0.625em; padding-left: 0.937em;}
 
+     .container1 {margin: 3.125em;; position: relative; box-sizing: border-box; border: 2px solid #06022d; height: 18.625em; width: 14em ; float:right;}
+
+     .container2 { margin: 3.125em; position: relative; box-sizing: border-box; height: 14.25em; width: 18.875em; float: left;}
+
+     .container3 { 
+          margin: 1em 1em 0em 3em;
+          position:relative;
+          width: auto;
+          height: auto;
+          overflow:auto;}
+          
+          
+           .container4,.container5,.container6,.container7,.container8 {
+               width:  22.8125em;
+               height: 33.5625em;
+               border: 2px solid #06022d;
+               padding: 0.625em;
+               margin: 4.5em 0em 0em 11em;
+               background-color: #ffff;
+               float:left;
+               position: relative;
+               
+          }
+          .container9 {
+               width: 22.8125em;
+               height:33.5625em;
+               border: 2px solid #06022d;
+               padding:  0.625em;
+               margin: 4.5em 0em 2em 11em;
+               background-color: #ffff;
+               float:left;
+               position:relative; }
+               
+       .container11 { 
+               position: relative;
+               margin: 1em 1em 1em -1.5em;
+               height: 4em;
+               width: auto;
+          
+          
+          }
+
+          
+   .container13 {
+     position: relative;
+     margin: 1em 1em 1em 1em;
+     height: 4em;
+     width: auto;
+
+
+   }
+
+   
+   .container13a {
+     position: relative;
+     margin: 1em 1em 1em 1em;
+     height: 0.5em;
+     width: auto;
+
+
+   }
+
+          
+
+     .wrapper { margin: -5em 0em 0em 0em}
+
+     hr { background-color: #2d022b; margin-top: 7.5em; height: 3px; margin:8.25em}
+
      p {color: #06022d; text-align:left; font-size: 1.1em; font-weight: 600; margin: 0em 1em 0em 1em;}
 
-#bigj { color: #ff0000; font-size: 6em; position: absolute; margin: -0.125em 0em 0em 0em;text-decoration: none;}
 
-#ust { color: #ff0000; font-size: 2em; position: absolute; margin: 0.45em  0em 0em 1.35em}
 
-#black { color:#000000; font-size: 1.7em; position: absolute; margin: 1.5em  0em  0em -3.75em; }
 
-.last {font-size: 1.6em; color: #ffffff;}
-span.thoseads {font-size: 1.4em; color: #0a2557bb; }
-span.hey { font-size: 2em; color: #943126;} 
-span.indoor { color: #ffffff;}
-span.blog {color: #ffffff;}
- .blueline { height: 3px;margin-left:5.5em; margin-top: 3.875em; background-color: #06022d; width: auto;}  
- #bringing   { font-size: 2.5em; text-align: center; margin-top: 10em; color:#000000; text-decoration: underline;
-     text-shadow: 0 0 3px #ffffff; text-decoration-color: #ff0000; margin-left: 0.75em;}
-   #freeyoutube   { font-size: 2em; text-align: center; margin-top: -2em; color: #ff0000;
-     text-shadow: 0 0 3px #ffffff;} 
-     #visitblog { font-size: 2em; color: #06022d; text-shadow: 0 0 3px #000000;
-     text-align: center; text-shadow: 0 0 3px #ffffff; margin: -2em 1em 1em 1em;}  
-     #strong { text-shadow: #ffffff;}  
      
-     .container1 {margin: 3.125em;; position: relative; box-sizing: border-box; border: 2px solid #06022d; height: 18.625em; width: 14em ; float:right;}
 
     div.label { position: absolute; color: #ffffff; bottom: 0em; left: 3.125em;}
 
 
 
-    .container2 { margin: 3.125em; position: relative; box-sizing: border-box; border: 2px solid #06022d; height: 14.25em; width: 18.875em; float: left;}
+    
     div.label1 { position: absolute; color: #ffffff; bottom: 0em; text-align: left;}
     
     
-    #blog {color: #ff0000; text-decoration: underline #000000; margin-top: 1.875em; }
-    div.txt { font-weight:700 ;}
-   #conform { text-align: center; margin-bottom: 1em; font-size: 1.5em;}
+    
+    
+
+    div.txt {
+     font-weight: 700;
+     display:block; width: 21.25em;; height: 8em;
+     border: 2px solid  #273c75;  overflow-x:hidden; overflow-y:scroll;
+     position: relative; margin-bottom: 1.25em;
+}
+
+ 
     .outd { color: #ffffff;}
 
 
@@ -93,7 +166,7 @@ span.blog {color: #ffffff;}
 
 
 
-
+/* All Id's below*/S
 
  #one { height: 5em; width: 5em; box-sizing: border-box; border: 5px solid #ff0000; color: #ff0000;
      text-align: center; font-size: 1.5em; padding: 0em; margin: 5em 0em 0em 13em; background-color: rgb(0, 0, 0); border-radius:  1.25em;}
@@ -107,16 +180,39 @@ span.blog {color: #ffffff;}
   #world { font-size: 2em; text-align: center; margin: -3em 1em 1em 1em; color: #ff0000;
      text-shadow: 0 0 3px #ffffff;}
 
-     hr { background-color: #2d022b; margin-top: 7.5em; height: 3px; margin:8.25em}
-  
-  #follow { text-align: center; font-weight: bold; font-size: 2em; color: #06022d;text-shadow: 0 0 3px #000000; text-shadow: 0 0 3px #ffffff; margin: -3em 1em 1em 1em ;}
+     #trainerapps { color: #0000;}
 
+     #follow { text-align: center; font-weight: bold; font-size: 2em; color: #06022d;text-shadow: 0 0 3px #000000; text-shadow: 0 0 3px #ffffff; margin: -3em 1em 1em 1em ;}
 
-  h1 { text-align: center; text-decoration: underline; color: #ff0000;}
-h2, h3, h4 { margin-left: 1em;}
-  h2 { text-align: left; color: #000000;}
-  h3 { font-weight: 700; font-size: 1em; text-align: left;}
-  h4 { text-align: center; font-size: 1.4em; margin-top: 0em;}
+     #bringing   { font-size: 2.5em; text-align: center; margin-top: 10em; color:#000000; text-decoration: underline;
+          text-shadow: 0 0 3px #ffffff; text-decoration-color: #ff0000; margin-left: 0.75em;}
+        #freeyoutube   { font-size: 2em; text-align: center; margin-top: -2em; color: #ff0000;
+          text-shadow: 0 0 3px #ffffff;} 
+          #visitblog { font-size: 2em; color: #06022d; text-shadow: 0 0 3px #000000;
+          text-align: center; text-shadow: 0 0 3px #ffffff; margin: -2em 1em 1em 1em;}  
+          #strong { text-shadow: #ffffff;}  
+          #strong1 { color: #3B5998;}
+
+          #bigj { color: #ff0000; font-size: 6em; position: absolute; margin: -0.125em 0em 0em 0em;text-decoration: none;}
+
+#ust { color: #ff0000; font-size: 2em; position: absolute; margin: 0.45em  0em 0em 1.35em}
+
+#black { color:#000000; font-size: 1.7em; position: absolute; margin: 1.5em  0em  0em -3.75em; }
+
+#sticky { display:inline-block; height: 1.562em; width: 21.875em; border: 2px solid #06022d; 
+     background-color: #ffffff; margin: 0.625em; text-align: center;
+      border-radius:  1.25em;padding-top: 0.187em;}
+     
+#global { display:inline-block; height: 1.562em ; width: 18.75em; border: 2px solid #06022d; 
+     background-color: #ffffff; margin: 0.625em; text-align: center;
+      border-radius:  1.25em;padding-top: 0.187em;}
+
+#methods { font-size: 1.2em;}
+
+#blog {color: #ff0000; text-decoration: underline #000000; margin-top: 1.875em; }
+
+ /*Table*/
+
   table { width: auto; border: 3px solid #06022d;}
   td,th {width: auto; border: 1px solid #000000; font-size: 1.3em;}
   caption { font-size: 1.8em;}
@@ -150,162 +246,17 @@ ul { margin-left: 1em; padding: 0em; text-align: center; position: relative; }
 li  { display: inline-block; height: 2em; width: 12em; border: 2px solid #06022d; 
     background-color: #ffffff; margin: 0.25em; text-align: center;
      border-radius:  1.25em;padding-top: 0.187em; font-size: 1em;}
-#sticky { display:inline-block; height: 1.562em; width: 21.875em; border: 2px solid #06022d; 
-     background-color: #ffffff; margin: 0.625em; text-align: center;
-      border-radius:  1.25em;padding-top: 0.187em;}
-     
-#global { display:inline-block; height: 1.562em ; width: 18.75em; border: 2px solid #06022d; 
-     background-color: #ffffff; margin: 0.625em; text-align: center;
-      border-radius:  1.25em;padding-top: 0.187em;}
-
-#methods { font-size: 1.2em;}
 
 a { font-size:1em; color:black; text-decoration: none; padding-bottom: 0.187em;}
      
 a:hover {  color: #ffffff; background-color: #62636a; border-radius: 0.3125em;}
 
-div.txt {
-     display:block; width: 21.25em;; height: 5.625em;
-     border: 2px solid  #273c75;  overflow-x:hidden; overflow-y:scroll;
-     position: relative; margin-bottom: 1.25em;
-}
-
-
-
-
-.container3 { 
-margin: 1em 1em 0em 3em;
-position:relative;
-width: auto;
-height: auto;
-overflow:auto;}
 
 
 
 
 
-
-
-
-
-
-.container4,.container5,.container6,.container7,.container8 {
-     width:  22.8125em;
-     height: 31.5625em;
-     border: 2px solid #06022d;
-     padding: 0.625em;
-     margin: 4.5em 0em 0em 11em;
-     background-color: #ffff;
-     float:left;
-     position: relative;
-     
-}
-.container9 {
-     width: 22.8125em;
-     height:31.5625em;
-     border: 2px solid #06022d;
-     padding:  0.625em;
-     margin: 4.5em 0em 2em 11em;
-     background-color: #ffff;
-     float:left;
-     position:relative;
-     
-     
-
-}
-
-.container10 {
-     border: 2px solid #000000;
-     border-radius: 0.3125em;
-     background-color: #f0d2d2;
-     padding: 1.25em;
-     position:relative;
-     margin: 0em 1em 0em 39em;
-     height: 37em;
-     width: 35em;
-     float: left;
-     
-
-}
-
-
-#fname, #lname, #country, #subject { width: 20 em; height: 3em;}
-
-
-
-.container11 { 
-     position: relative;
-     margin: 1em 1em 1em -1.5em;
-     height: 4em;
-     width: auto;
-
-
-}
-
- /*input below for form*/
-
-
- input[type=text], select, #subject {
-     width: 37.5em;
-     padding: 0.75em;
-     border: 1px solid #ccc;
-     border-radius:  0.25em;
-     box-sizing: border-box;
-     margin-top: 0.375em;
-     margin-bottom: 1em;
-     resize:vertical;
-     border-color: #08960f;
-}
-
-/*input below for comment and submit buttons*/
-input[type=submit] {
-     background-color:  #493cbd;
-     color: #ffffff;
-     padding: 0.75em 1.25em;
-     border:none;
-     border-radius:  0.25em;
-     cursor: pointer;
-     
-     }
-/* input below for hover over comment and submit buttons*/
-     input[type=submit]:hover {
-          background-color:  #000000; color: #eeff00;
-
-     }
-
-
-/*textarea for comments */
-
-textarea{
-
-     height: 2.5em;
-     width: 20.125em;
-     border: none;
-     border-bottom: 2px solid rgb(117, 10, 10);
-     background-color: transparent;
-     margin-bottom: 0.625em;
-     resize: none;
-     outline: none;
-     transition: .5s;
-
-}
-
-/* submit button for comments*/
-input[type="submit"], button
-{
-     padding: 0.625em;
-     border: none;
-     outline: none;
-     border-radius: 0.3125em;
-     text-transform:uppercase ;
-     font-weight: bold;
-     cursor: pointer;
-     margin-top: 0.5em;
-     margin-left: 3em;
-     
-}
-
-
+ 
 
 
 .btn 
@@ -366,18 +317,9 @@ margin-top: 1.25em;
      color: white;
    }
 
-   #btn1 { background-color: #0059ff; height: 4em; width: 4em; border: 2px solid #0000;}
-#btn1:hover { background-color: #0000; color: #ffff;}
- 
-
-   .container13 {
-     position: relative;
-     margin: 1em 1em 1em 1em;
-     height: 4em;
-     width: auto;
 
 
-   }
+  
    
 
    footer {
@@ -408,18 +350,11 @@ margin-top: 1.25em;
           }
 
 
-     .container10 { margin: 0em 0em 0em 11em;
-          height: 35em; width: 25em; padding: 1em;
-         }
 
           #zegfoot { margin:-2em -4em 0em 0em ;position:relative; float: right;}
           #zeg2 { margin:-4em 23em 0em 2em; position: relative; float: right;}
 
-          #fname { width: 15em; height: 3em; margin: 0em 0em 0.5em 1em;}
-          #lname { width: 15em; height: 3em; margin: 0.5em 0em 0.5em 1em;}
-          #country { width: 15em; height: 3em; margin: 0.5em 0em 2em 2.25em;}
-          #subject {  width: 15em; height: 17em; margin: 1em 1em 1em 7em;}
-          #email { width: 15em; height: 3em; margin: 0em 0em 0.5em 1em;}
+        
           
          
 
