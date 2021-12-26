@@ -121,6 +121,7 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 
    }
 
+  
           
 
      .wrapper { margin: -5em 0em 0em 0em}
@@ -166,7 +167,7 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 
 
 
-/* All Id's below*/S
+/* All Id's below*/
 
  #one { height: 5em; width: 5em; box-sizing: border-box; border: 5px solid #ff0000; color: #ff0000;
      text-align: center; font-size: 1.5em; padding: 0em; margin: 5em 0em 0em 13em; background-color: rgb(0, 0, 0); border-radius:  1.25em;}
@@ -211,7 +212,7 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 
 #blog {color: #ff0000; text-decoration: underline #000000; margin-top: 1.875em; }
 
-#email { color: #ffffff; width: 12.75em; margin-left: 45em;}
+#email { color: #ffffff; }
 #email:hover {background: #000000; color: #ff0000; }
 
 #myemail  {height: 2.5em; width:auto; background-color: #273c75;color: #ffff; padding: 0.6em;margin-top: 1em;}
@@ -330,7 +331,7 @@ margin-top: 1.25em;
    
 
    footer {
-     height: 8em;
+     height: 7em;
      position:relative;
      background-color: #06022d;
      color: #ffffff;
@@ -340,8 +341,8 @@ margin-top: 1.25em;
           
      }
 
-#zegfoot { margin:-1em 2em 0em 0em ;position:relative; float: right;}
-#zeg2 { margin:-1em 0em 0em 2em; position: relative; float: left;}
+#zegfoot { margin:-2em 2em 0em 0em ;position:relative; float: right;}
+#zeg2 { margin:-2em 0em 0em 2em; position: relative; float: left;}
 
 .button {height: 3.5em; width: 5em; background-color: #273c75;color: #ffff; padding: 0.6em;}
 .button:hover { background: #000000; color: #ff0000;}
@@ -358,9 +359,10 @@ margin-top: 1.25em;
 
 
 
-          #zegfoot { margin:-2em -4em 0em 0em ;position:relative; float: right;}
+          #zegfoot { margin:-4em -4em 0em 0em ;position:relative; float: right;}
           #zeg2 { margin:-4em 23em 0em 2em; position: relative; float: right;}
 
+          
         
           
          
