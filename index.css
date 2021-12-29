@@ -212,10 +212,10 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 
 #blog {color: #ff0000; text-decoration: underline #000000; margin-top: 1.875em; }
 
-#email { color: #ffffff; }
+#email { color: #ffffff; height: 1em; width: 12em; margin: 0em 0em 0em 45em ;}
 #email:hover {background: #000000; color: #ff0000; }
 
-#myemail  {height: 2.5em; width:auto; background-color: #273c75;color: #ffff; padding: 0.6em;margin-top: 1em;}
+#myemail  {height: 2.5em; width:auto; background-color: #273c75;color: #ffff; padding: 0.6em; margin-top: 1em;}
 #myemail:hover { background: #000000; color: #ff0000;}
 
 
@@ -325,6 +325,13 @@ margin-top: 1.25em;
      color: white;
    }
 
+   .fa-reddit {
+     font-size:2em;color:#ffffff; 
+      background-color: #3B5998;
+   }
+
+   
+
 
 
   
@@ -345,6 +352,7 @@ margin-top: 1.25em;
 #zeg2 { margin:-2em 0em 0em 2em; position: relative; float: left;}
 
 .button {height: 3.5em; width: 5em; background-color: #273c75;color: #ffff; padding: 0.6em;}
+
 .button:hover { background: #000000; color: #ff0000;}
 
 
