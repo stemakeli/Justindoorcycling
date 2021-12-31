@@ -56,7 +56,7 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 
 /* Containers and wrappers*/
 
-.container { position:relative; height: 5.5em; width: 16em; border: 2px solid #06022d;
+.container { position:relative; height: 5.5em; width: 18em; border: 2px solid #06022d;
      margin: 4em 0em 0em 17.5em; background: #ffffff; border-radius: 1.25em; padding-bottom: 0.625em; padding-left: 0.937em;}
 
      .container1 {margin: 3.125em;; position: relative; box-sizing: border-box; border: 2px solid #06022d; height: 18.625em; width: 14em ; float:right;}
@@ -196,9 +196,9 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 
           #bigj { color: #ff0000; font-size: 6em; position: absolute; margin: -0.125em 0em 0em 0em;text-decoration: none;}
 
-#ust { color: #ff0000; font-size: 2em; position: absolute; margin: 0.45em  0em 0em 1.35em}
+#ust { color: #ff0000; font-size: 2em; position: absolute; margin: 0.45em  0em 0em 1.5em}
 
-#black { color:#000000; font-size: 1.7em; position: absolute; margin: 1.5em  0em  0em -3.75em; }
+#black { color:#000000; font-size: 1.7em; position: relative; margin: 1.5em  0em  0em 1.75em; }
 
 #sticky { display:inline-block; height: 1.562em; width: 21.875em; border: 2px solid #06022d; 
      background-color: #ffffff; margin: 0.625em; text-align: center;
