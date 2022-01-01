@@ -28,7 +28,8 @@ span.thoseads {font-size: 1.4em; color: #0a2557bb; }
 span.hey { font-size: 2em; color: #943126;} 
 span.indoor { color: #ffffff;}
 span.blog {color: #ffffff;}
- .blueline { height: 3px;margin-left:5.5em; margin-top: 3.875em; background-color: #06022d; width: auto;}  
+ .blueline { height: 3px;margin-left:5.5em; margin-top: 3.875em; background-color: #06022d; width: auto;} 
+ 
  
  /*Headings elements*/
 
@@ -125,6 +126,7 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
           
 
      .wrapper { margin: -5em 0em 0em 0em}
+     
 
      hr { background-color: #2d022b; margin-top: 7.5em; height: 3px; margin:8.25em}
 
@@ -212,8 +214,6 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 
 #blog {color: #ff0000; text-decoration: underline #000000; margin-top: 1.875em; }
 
-#email { color: #ffffff; height: 1em; width: 12em; margin: 0em 0em 0em 45em ;}
-#email:hover {background: #000000; color: #ff0000; }
 
 #myemail  {height: 2.5em; width:auto; background-color: #273c75;color: #ffff; padding: 0.6em; margin-top: 1em;}
 #myemail:hover { background: #000000; color: #ff0000;}
