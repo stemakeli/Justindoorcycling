@@ -29,6 +29,7 @@ span.hey { font-size: 2em; color: #943126;}
 span.indoor { color: #ffffff;}
 span.blog {color: #ffffff;}
  .blueline { height: 3px;margin-left:5.5em; margin-top: 3.875em; background-color: #06022d; width: auto;} 
+
  
  
  /*Headings elements*/
@@ -37,7 +38,7 @@ span.blog {color: #ffffff;}
  h2, h3, h4 { margin-left: 1em;}
    h2 { text-align: left; color: #000000;}
    h3 { font-weight: 700; font-size: 1em; text-align: left;}
-   h4 { text-align: center; font-size: 1.4em; margin-top: 0em;}
+   h4 { text-align: center; font-size: 1.3em; margin-top: 0em;}
      
 
     /*Body elements*/
@@ -70,6 +71,8 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
           width: auto;
           height: auto;
           overflow:auto;}
+
+          
           
           
            .container4,.container5,.container6,.container7,.container8 {
@@ -77,7 +80,7 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
                height: 33.5625em;
                border: 2px solid #06022d;
                padding: 0.625em;
-               margin: 4.5em 0em 0em 11em;
+               margin: 1em 0em 0em 10em;
                background-color: #ffff;
                float:left;
                position: relative;
@@ -88,7 +91,7 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
                height:33.5625em;
                border: 2px solid #06022d;
                padding:  0.625em;
-               margin: 4.5em 0em 2em 11em;
+               margin: 1em 0em 2em 10em;
                background-color: #ffff;
                float:left;
                position:relative; }
@@ -122,10 +125,49 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 
    }
 
+   .container14 {
+     width: 22.8125em;
+     height:33.5625em;
+     border: 2px solid #06022d;
+     padding:  0.625em;
+     margin: 1em 0em 2em 10em;
+     background-color: #ffff;
+     float:left;
+     position:relative; }
+
+     .container15 {
+          width: 22.8125em;
+          height:33.5625em;
+          border: 2px solid #06022d;
+          padding:  0.625em;
+          margin: 1em 0em 2em 10em;
+          background-color: #ffff;
+          float:left;
+          position:relative; }
+
+          .container16 {
+               width: 22.8125em;
+               height:33.5625em;
+               border: 2px solid #06022d;
+               padding:  0.625em;
+               margin: 1em 0em 2em 10em;
+               background-color: #f07970;
+               float:left;
+               position:relative; }
+     
+
   
           
 
-     .wrapper { margin: -5em 0em 0em 0em}
+          .wrapper { margin: -5em 0em 0em 0em;}
+          .wrapper1 { width: 18em; 
+               height: 25em; 
+               background-color: #f07970;
+               border: 2px solid #000000;
+               margin: 0.5em 0em 0em 1.75em;
+               
+               
+          }
      
 
      hr { background-color: #2d022b; margin-top: 7.5em; height: 3px; margin:8.25em}
@@ -218,6 +260,17 @@ header { height: 6.25em; width: auto; margin-top: 0.625em;}
 #myemail  {height: 2.5em; width:auto; background-color: #273c75;color: #ffff; padding: 0.6em; margin-top: 1em;}
 #myemail:hover { background: #000000; color: #ff0000;}
 
+#sbm { margin: 2em 0em 0em 8em; background-color: #273c75; color: #ffff; height: 2em; width: 6em; border: 2px solid #000000;}
+
+#sbm:hover { background-color: #000000; color: #ff0000; cursor: pointer;}
+
+#txtar { height: 4em; width: 25em; border: 2px solid #000000;}
+#eml  { height: 2em; width: 22.5em; border: 2px solid #000000;}
+#nme  { height: 2em; width: 22.5em; border: 2px solid #000000;}
+#count { height: 4em; width: 22.5em; border: 2px solid #000000;}
+
+#wrp { color: #ffffff; text-align: center; font-size: 2em; margin: 5em 0em 0em 0.5em;}
+
 
  /*Table*/
 
@@ -302,6 +355,7 @@ margin-top: 1.25em;
      text-align: center;
      text-decoration: none;
      margin: 0.3125em  0.125em;
+     
     
    }
 
@@ -313,6 +367,7 @@ margin-top: 1.25em;
    .fa-facebook {
      background: #3B5998;
      color: white;
+     
    }
 
    .fa-twitter {
@@ -320,10 +375,8 @@ margin-top: 1.25em;
      color: white;
    }
 
-   .fa-linkedin {
-     background: #007bb5;
-     color: white;
-   }
+  
+   
 
    .fa-reddit {
      font-size:2em;color:#ffffff; 
